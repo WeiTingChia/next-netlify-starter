@@ -1,17 +1,17 @@
-
+import Link from "@components/Nav/Link"
 export default function Nav() {
   return (
     <>
-      <nav className={styles.nav}>
-        <ul>
-          <li>
-            <Link href="/">
-              <a>Home</a>
+      <nav>
+        <ul className="flex-row">
+          <li >
+            <Link link="/" content="Home">
+              Home
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <a>About</a>
+            <Link link="/about" content="About">
+              About
             </Link>
           </li>
         </ul>

@@ -1,7 +1,7 @@
-export default function Link({ href }){
+export default function Link({ link, content }){
   return (
     <>
-      <a href="href"></a>
+      <a href={link} class="text-black">{content}</a>
     </>
   )
 }
