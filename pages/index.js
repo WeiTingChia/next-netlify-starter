@@ -8,7 +8,7 @@ export default function Home() {
     <div className="container">
       <Nav></Nav>
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Thomas's Software Playground</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

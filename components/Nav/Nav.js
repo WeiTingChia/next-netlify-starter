@@ -4,7 +4,7 @@ export default function Nav() {
     <>
       <nav>
         <ul className="flex-row">
-          <li >
+          <li>
             <Link link="/" content="Home">
               Home
             </Link>
